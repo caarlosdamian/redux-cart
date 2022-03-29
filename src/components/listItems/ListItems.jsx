@@ -22,7 +22,7 @@ const ListItems = () => {
       <h1>List Items</h1>
       <div className="wrapper">
         {collections.map((item) => (
-          <Card item={item} key={item.id}/>
+          <Card item={item} key={item.imageUrl}/>
         ))}
       </div>
     </div>
